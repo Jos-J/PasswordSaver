@@ -20,12 +20,12 @@ A simple command-line **Password Saver** application built with Java. This proje
 PasswordSaver-Java/
 ├── data/
 │   └── passwords.txt               # Text file to store saved passwords
-├── README.md
 ├── src/
 │   ├── PasswordSaver.java          # Main class with menu & input handling
 │   ├── PasswordEntry.java          # Class to represent a saved password
 │   ├── FileManager.java            # Handles reading/writing passwords to file
 │   └── EncryptionUtils.java        # (Optional) For encrypting/decrypting data
+├── README.md
 
 ```
 
