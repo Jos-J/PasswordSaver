@@ -21,10 +21,10 @@ PasswordSaver-Java/
 ├── data/
 │   └── passwords.txt               # Text file to store saved passwords
 ├── src/
-│   ├── PasswordSaver.java          # Main class with menu & input handling
-│   ├── PasswordEntry.java          # Class to represent a saved password
+│   ├── EncryptionUtils.java        # For encrypting/decrypting data
 │   ├── FileManager.java            # Handles reading/writing passwords to file
-│   └── EncryptionUtils.java        # (Optional) For encrypting/decrypting data
+│   ├── PasswordEntry.java          # Class to represent a saved password
+│   ├── PasswordSaver.java          # Main class with menu & input handling
 ├── README.md
 
 ```
