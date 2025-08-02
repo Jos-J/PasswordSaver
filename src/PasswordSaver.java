@@ -60,7 +60,7 @@ public class PasswordSaver {
                         System.out.println("Failed to save: " + e.getMessage());
                     }
                     break;
-                    
+
                 case "3":
                     running = false;
                     break;
@@ -75,4 +75,3 @@ public class PasswordSaver {
         System.out.println("Good Day Sir!");
 
     }
-}
