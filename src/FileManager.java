@@ -6,6 +6,8 @@ import java.io.*;
 import java.util.ArrayList;
 import java.utiil.List;
 
+// Class//
+
 public class FileManger {
     private static final String FILE_PATH = "data/password.txt";
 
