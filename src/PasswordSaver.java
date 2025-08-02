@@ -11,8 +11,8 @@ public class PasswordSaver {
 
     public static void main(String[] args) {
         // Uncomment this to run test instead of full program
-        // runTest();
-        runApp();
+        runTest();
+        // runApp();
     }
 
     // The main app logic
@@ -62,7 +62,7 @@ public class PasswordSaver {
                     try {
                         FileManager.saveEntries(entries);
                         System.out.println("✅ Password saved!");
-                    } catch (IOException e) {
+                    } catch (Exception e) {
                         System.out.println("❌ Failed to save: " + e.getMessage());
                     }
                     break;

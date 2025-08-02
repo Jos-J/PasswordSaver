@@ -1,3 +1,5 @@
+package src;
+
 public class PasswordEntry {
     private String site;
     private String username;

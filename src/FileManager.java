@@ -20,7 +20,7 @@ public class FileManager {
             return entries;
         }
 
-        try (BufferedReader reader = BufferedReader(new FileReader(FILE_PATH))) {
+        try (BufferedReader reader = new BufferedReader(new FileReader(FILE_PATH))) {
             String line;
             while ((line = reader.readLine()) != null) {
                 PasswordEntry entry = PasswordEntry.fromString(line);
