@@ -15,7 +15,7 @@ public class PasswordSaver {
         List<PasswordEntry> entries = new ArrayList<>();
 
         try {
-            entries = FileManger.readPasswords(FILE_PATH);
+            entries = FileManager.readPasswords(FILE_PATH);
 
         } catch (IOException e) {
             System.out.println("Could not load saved passwords: " + e.getMessage());
@@ -30,10 +30,10 @@ public class PasswordSaver {
             System.out.print("Select an Option");
 
 
-            Sring choice = scanner.nextLine();
+            String choice = scanner.nextLine();
 
             switch (choice) {
-                case "1";
+                case "1":
                     if (entries.isEmpty()) {
                         System.out.println("No saved Passwords.");
                     } else {
@@ -45,23 +45,26 @@ public class PasswordSaver {
                 case "2":
                     System.out.print("Enter site name: ");
                     String site = scanner.nextLine();
-                    System.out.print("Enter Username: ");
+                    System.out.print("Enter username: ");
                     String username = scanner.nextLine();
-                    System.out.print("Enter Password: ");
+                    System.out.print("Enter password: ");
                     String password = scanner.nextLine();
 
-                    PasswordEntry newEntry = new PasswordEntry(site, Username, Password);
+                    PasswordEntry newEntry = new PasswordEntry(site, username, password);
                     entries.add(newEntry);
 
                     try {
                         FileManger.writePasswords(entries, FILE_PATH);
                         System.out.println("Password saved!");
                     } catch (IOException e) {
-                        System.out.printin("Failed to save: " + e.getMessage());
+                        System.out.println("Failed to save: " + e.getMessage());
                     }
+                    break;
+                    
                 case "3":
                     running = false;
                     break;
+
                 default:
                     System.out.println("Invalid option. Try Again");
                     }
