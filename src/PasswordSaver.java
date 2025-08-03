@@ -11,8 +11,8 @@ public class PasswordSaver {
 
     public static void main(String[] args) {
         // Uncomment this to run test instead of full program
-        runTest();
-        // runApp();
+        // runTest();
+        runApp();
     }
 
     // The main app logic

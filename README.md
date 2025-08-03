@@ -30,6 +30,7 @@ PasswordSaver-Java/
 ```
 
 ## USE
+### 1. Compile the program 
 
 
 ### License

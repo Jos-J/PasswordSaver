@@ -1,4 +1,3 @@
-// package
 package src;
 
 // imports
