@@ -34,7 +34,7 @@ PasswordSaver-Java/
 ├── README.md
 ```
 
-## USE
+## To Use
 ```
 Type javac -d bin src/*.java              # Program will complile
 Type java -cp bin src.PasswordSaver        # Program will run
