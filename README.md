@@ -37,7 +37,7 @@ PasswordSaver-Java/
 ## To Use
 ```
 Type javac -d bin src/*.java              # Program will complile
-Type java -cp bin src.PasswordSaver        # Program will run
+Type java -cp bin src.PasswordSaver       # Program will run
 Enter 1 2 or 3
 ```
 
