@@ -35,9 +35,12 @@ PasswordSaver-Java/
 ```
 
 ## To Use
-```
-Type javac -d bin src/*.java              # Program will complile
-Type java -cp bin src.PasswordSaver       # Program will run
+```bash
+clone the repo to IDE of choice
+after cloning repo enter two steps below
+
+javac -d bin src/*.java              # Program will complile
+java -cp bin src.PasswordSaver       # Program will run
 Enter 1 2 or 3
 ```
 
