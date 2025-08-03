@@ -34,7 +34,9 @@ PasswordSaver-Java/
 ├── README.md
 ```
 
-## To Use
+## 🛠 How to Build & Run
+
+### 🔧 Compile and Run (Command Line)
 ```bash
 clone the repo to IDE of choice
 after cloning repo enter two steps below
