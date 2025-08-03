@@ -11,13 +11,19 @@ A simple command-line **Password Saver** application built with Java. This proje
 - Delete individual entries
 - Optional encryption for secure storage
 - Simple file-based storage using `passwords.txt`
-
 ---
+
 
 ## 📂 File Structure
 
 ```
 PasswordSaver-Java/
+├── bin/                             # ← Compiled .class files will go here
+│   └── src/
+│       ├── EncryptionUtils.class
+│       ├── FileManager.class
+│       ├── PasswordEntry.class
+│       └── PasswordSaver.class
 ├── data/
 │   └── passwords.txt               # Text file to store saved passwords
 ├── src/
@@ -26,14 +32,16 @@ PasswordSaver-Java/
 │   ├── PasswordEntry.java          # Class to represent a saved password
 │   ├── PasswordSaver.java          # Main class with menu & input handling
 ├── README.md
-
 ```
 
 ## USE
-### 1. Compile the program 
+```
+Type javac -d bin src/*.java              # Program will complile
+Type java -cp bin src.PasswordSaver        # Program will run
+Enter 1 2 or 3
+```
 
-
-### License
+## License
 
 ![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)
 

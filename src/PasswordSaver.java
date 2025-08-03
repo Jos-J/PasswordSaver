@@ -77,7 +77,7 @@ public class PasswordSaver {
         }
 
         scanner.close();
-        System.out.println("Good day, sir!");
+        System.out.println("Bye!");
     }
 
     // 🔍 Test method (for development)
